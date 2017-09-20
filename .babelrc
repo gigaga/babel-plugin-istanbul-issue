@@ -1,0 +1,15 @@
+{
+  "presets":["es2017", "es2015", "stage-0", "react"],
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy"
+  ],
+
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  }
+}

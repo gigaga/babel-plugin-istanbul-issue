@@ -1,0 +1,6 @@
+--timeout 10000
+--colors
+--bail
+--recursive
+--compilers js:babel-register
+--require babel-polyfill

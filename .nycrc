@@ -1,0 +1,23 @@
+{
+  "include": [
+    "client/**/*.jsx"
+  ],
+  "require": [
+    "babel-register"
+  ],
+  "all": true,
+  "extension": [
+    ".js",
+    ".jsx"
+  ],
+  "report-dir": "./results/coverage/ut-babel-plugin-istanbul",
+  "cache": false,
+  "reporter": [
+    "lcov",
+    "cobertura",
+    "text-summary",
+	"json"
+  ],
+  "sourceMap": false,
+  "instrument": false
+}
